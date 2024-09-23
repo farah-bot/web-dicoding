@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Berita Farah</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <a href="#">Berita Farah</a>
+          <button class="navbar-toggle">☰</button>
+          <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Berita</a></li>
+            <li class="dropdown">
+              <a href="#">Daerah</a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Sumut</a></li>
+                <li><a href="#">Jatim</a></li>
+                <li><a href="#">Bali</a></li>
+              </ul>
+            </li>
+            <li><a href="#berita-terpopuler">Terpopuler</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="slider-container">
+        <div class="slider-images">
+          <div class="slider-slide">
+            <div class="slider-image-item">
+              <img src="images/slider1.jpeg" alt="Slider Image 1" />
+              <p class="image-caption">
+                Tugas Baru di PBB Menanti Retno Marsudi Usai Purnatugas di
+                Indonesia
+              </p>
+            </div>
+          </div>
+          <div class="slider-slide">
+            <div class="slider-image-item">
+              <img src="images/slider2.jpeg" alt="Slider Image 2" />
+              <p class="image-caption">
+                Adu Tagline dan Visi Misi 3 Pasangan Cagub-Cawagub Jakarta
+              </p>
+            </div>
+          </div>
+          <div class="slider-slide">
+            <div class="slider-image-item">
+              <img src="images/slider3.jpeg" alt="Slider Image 3" />
+              <p class="image-caption">
+                Festival Maulid Nabi Selama 20 Jam Pecahkan Rekor MURI
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="content">
+        <h2>Berita Terbaru</h2>
+        <article class="article">
+          <img
+            src="images/slider3.jpeg"
+            alt="Article 1 Image"
+            class="article-img"
+          />
+          <h3>Festival Maulid Nabi Selama 20 Jam Pecahkan Rekor MURI</h3>
+          <p class="news-date">Sep 13, 2024</p>
+          <p>
+            Festival Maulid Nabi selama 20 jam berlangsung di Masjid Al-Mu'Minin
+            di Jalan Kayumanis IX, Matraman, Jakarta Timur, Jumat (13/9/2024).
+          </p>
+        </article>
+
+        <article class="article">
+          <img
+            src="images/slider6.jpeg"
+            alt="Article 2 Image"
+            class="article-img"
+          />
+          <h3>Suasana Stasiun Pasar Senen Jelang Long Weekend</h3>
+          <p class="news-date">Sep 13, 2024</p>
+          <p>
+            Ratusan calon penumpang menunggu kereta jarak jauh di kawasan
+            Stasiun Pasar Senen, Jakarta, Jumat (13/9/2024).
+          </p>
+        </article>
+      </section>
+
+      <aside id="berita-terpopuler">
+        <h2>Berita Terpopuler</h2>
+        <div class="news-item">
+          <img src="images/slider1.jpeg" alt="Top News 1" class="news-img" />
+          <div class="news-content">
+            <h3>
+              <a href="#"
+                >Tugas Baru di PBB Menanti Retno Marsudi Usai Purnatugas di
+                Indonesia</a
+              >
+            </h3>
+            <p class="news-date">Sep 16, 2024</p>
+          </div>
+        </div>
+
+        <div class="news-item">
+          <img src="images/slider5.jpeg" alt="Top News 2" class="news-img" />
+          <div class="news-content">
+            <h3>
+              <a href="#"
+                >Kim Jong Un Pamer Peluncur Roket Ganda Super Besar Terbaru</a
+              >
+            </h3>
+            <p class="news-date">Sep 15, 2024</p>
+          </div>
+        </div>
+
+        <div class="news-item">
+          <img src="images/slider6.jpeg" alt="Top News 3" class="news-img" />
+          <div class="news-content">
+            <h3>
+              <a href="#">Suasana Stasiun Pasar Senen Jelang Long Weekend</a>
+            </h3>
+            <p class="news-date">Sep 13, 2024</p>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Berita Farah</p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
